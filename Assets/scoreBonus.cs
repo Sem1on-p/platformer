@@ -21,6 +21,6 @@ public class scoreBonus : MonoBehaviour {
 		}
 	}
 	void OnGUI(){
-	GUI.Box (new Rect (0, 55, 100, 45), "Fish: " + score);
+	GUI.Box (new Rect (0, 55, 100, 45), "Fish: " + score + "\nОсталось: " + (3 - score) );
 }
 }

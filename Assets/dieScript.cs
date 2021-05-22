@@ -8,7 +8,7 @@ public class dieScript : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.name == "dieCollider"){
 			if (life != 0){
-			transform.position = new Vector3(0, 0, 0);
+			transform.position = new Vector3(0, 30, 0);
 			life--;
 			}
 		else{
